@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 500px;
+    background-color: skyblue;
+    width: 100%;
+}
+.navbar{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(55, 175, 223);
+    display: flex;
+    list-style: none;
+    height: 50px;
+    width: 100%;
+    justify-content: right;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+
+
+    
+
+}
+.navitem a{
+    text-decoration: none;
+    margin: 10px;
+    color: white;
+    background-color: goldenrod;
+    padding: 10px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    position: relative;
+    right: 50px;
+    
+}
+.navbar img{
+    height: 50px;
+    position: absolute;
+    left: 80px;
+    display: flex;
+}
+.profile{
+    width: 50%;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+
+
+
+.half-width{
+    position: absolute;
+    text-align: right;
+    top: 50px;
+    right: 50px;
+}
+.welcome{
+    font-size: 45px;
+}
+h1{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    margin:10px;
+    margin-top: 50px;
+    width: 100%;
+
+}
+.nrn-color{
+    color:orange;
+}
+#html:hover{
+    text-decoration: none;
+    color:rgb(4, 0, 255);
+    font-size:25px;
+    transition: 0.3s;
+}
+#css:hover{
+    text-decoration: none;
+    color:rgb(0, 102, 255);
+    font-size:25px;
+    transition: 0.3s;
+}
+#js:hover{
+    text-decoration: none;
+    color:rgb(0, 60, 255);
+    font-size:20px;
+    transition: 0.3s;
+}
+#php:hover{
+    text-decoration: none;
+    color:rgb(4, 0, 255);
+    font-size:20px;
+    transition: 0.3s;
+}
+#mysql:hover{
+    text-decoration: none;
+    color:rgb(0, 81, 255);
+    font-size:20px;
+    transition: 0.3s;
+}
+.tags{
+    color:rgb(247, 148, 67);
+}
+p{
+    text-size-adjust: 100%;
+    font-size:large;
+    color:white;
+    margin-top: 20px;
+    padding-top: 20px;
+    word-spacing: 5px;
+    line-height: 30px;
+}
+a{
+    color: rgb(255, 136, 0);
+    transition: 0.3s;
+    text-decoration: none;
+}
+h3{
+    margin-top: 50px;
+    color: rgb(255, 255, 255);
+}
