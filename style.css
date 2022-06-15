@@ -24,6 +24,8 @@ header{
     border: 1px solid white;
     border-radius: 10px;
     margin: 5px;
+    position: relative;
+    right: 50px;
     
 }
 .navitem a{
@@ -37,7 +39,7 @@ header{
 .navbar img{
     height: 50px;
     position: absolute;
-    left: 2px;
+    left: 25px;
 }
 .profile{
 
@@ -46,12 +48,15 @@ header{
     justify-content: right;  
     position: absolute;
     top: 70px;
+    right: 5px;
     z-index: -1;
 }
 .profile img{
     width: 30%;
     display: block;
     display: flex;
+    border: 5px solid gray;
+    border-radius: 250px;
     
 }
 
@@ -66,6 +71,33 @@ header{
             justify-content: right;  
             position: absolute;
             top: 30px;
+            right: 5px;
             z-index: -1;
     }
+}
+.about{
+    position: absolute;
+    top: 50px;
+    left: 5px;
+    text-align: center;
+}
+.about h1{
+    font-family: arial;
+    color: white;
+    text-align: center;
+    font-size: 70px;
+}
+.about h2{
+    font-family: arial;
+    color: white;
+    padding: 5px;
+}
+.about p{
+    font-family: Arial;
+    color: white;
+    padding: 5px;
+    line-height: 30px;
+}
+.nrn-color{
+    color: rgb(66, 125, 250);
 }
